@@ -1,0 +1,11 @@
+1. An example of extraction could be like a RGB computer mouse. The light, The buttons, or the scroll wwhell
+Extraction is kind of like putting certain parts of an something into categories.
+
+2. Integers are whole numbers
+floats are numbers with decimals.
+
+3. a variable in python could be input.
+variables are used to abstract data by, putting certain things into a category to be further printed.
+
+4. A time i would use a boolean data type could be when the program is like a survey.
+Like when given two answers to a question ,choosing one or the other.
