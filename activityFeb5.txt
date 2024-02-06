@@ -1,4 +1,5 @@
 1. An example of extraction could be like a whole essay, and a paragraph.
+
 2. Integers are whole numbers
 floats are numbers with decimals.
 
