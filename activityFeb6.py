@@ -26,5 +26,5 @@ studentid=''
 
 # 3: variables CANNOT be python keywords.
 
-# Of the following: class, AssertionError, Ect.
+# Of the following: class, Assertion Error, Ect.
 
