@@ -19,7 +19,7 @@
 
 # 6A: In this situation i would use the operator arithmitic, and assignment
 'I would use arithmitic to take the 20% discount from the price.'
-'I would use assignment to program the computer to assign the users specific items into their cart.'
+'I would use assignment to program the computer to assign the users specific items into/prices their cart.'
 
 # 7A: I would use comparitive operator for this situation.
 'I would use comapritive for this situation because the number on the ID must match the number inside of the computer.'

@@ -1,0 +1,10 @@
+# Q1
+S_ = int(input('enter a number'))
+A_ = 30
+print(S_ + A_)
+
+# Q2
+HasComputer = True
+HasApp = False
+HasSoftware = True
+Print('HasComputer and HasSoftware')
