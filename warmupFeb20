@@ -1,0 +1,20 @@
+# 1: 
+laundry= ['LaundryDetrgent' , 'DryerSheets' , 'Water' , 'Clothes' , 'WashingMachine' , 'DryingMachine']
+print(len(laundry))
+# 2:
+def laundryIndex():
+    print(laundry[3])
+laundryIndex()
+
+# 3: 
+# steps to solve the problem
+# 3. Use input to trakle in user name
+# 2. print out data in reverse 
+
+def reverseName():
+    userName = input('what is your name?')[::-1]
+    print(userName)
+    
+reverseName()
+
+
