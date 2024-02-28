@@ -28,7 +28,9 @@
 #6. Write a function in Python that when called will print out 
 # your name.
 
-# Answer: a function i would use for this is string, and inout, Example: ('enter your name')
+# Answer: a function i would use for this is string, and input, Example: ('enter your name')
+username = input('enter your name')
+print(username)
 
 #7. What is a function definition and a function call?
 
@@ -39,7 +41,7 @@
 
 # = // single equal = assignment
 # == // double equal = comparison
-# != // exclaimation equal = arithmetic
+# != // exclaimation equal = Not equal
 
 #9. What will the output for the following code block be?
 var1 = 1
