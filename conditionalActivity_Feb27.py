@@ -1,6 +1,8 @@
-def entrancePasscode(User_1Code):
-    User_1Code = 12345
-if User_1Code == entrancePasscode:
-    print('Password correct. You may enter')
-else: 
-    print('Password is incorrect. Ypu may not enter')
+def entrancePasscode(UserCode):
+    actualPassCode = 'get_this_money'
+    UserCode = input('Please enter user code. ')
+    if UserCode == actualPassCode:
+        print('Password correct. You may enter')
+    else: 
+        print('Password is incorrect. You may not enter')
+entrancePasscode('get_this_money')
