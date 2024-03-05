@@ -3,6 +3,6 @@ def entrancePasscode(UserCode):
     UserCode = input('Please enter user code. ')
     if UserCode == actualPassCode:
         print('Password correct. You may enter')
-    else: 
+    if 
         print('Password is incorrect. You may not enter')
 entrancePasscode('get_this_money')
