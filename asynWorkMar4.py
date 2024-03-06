@@ -9,29 +9,35 @@
 
 # Prompt #1- Elevator Conditional Function Execercise.
 
+#keywords
+#functions- instructions that only run when called.
+#Input()- lets your program accept data from the user.
+#string data ype-
+#variables-
+#conditionals (iflelse/elif)- allows us to run specific instructions based on
+#specific conditions.
+#elevator should take in floor number and send user to that floor.
+
 def ElevatorSystem():
     UsersFloor = input('What floor would you like to go to? Choose the number/letter of the floor.')
-    if UsersFloor == '1':
+    if UsersFloor == 'M':
         print('Taking you to the lobby.')
-    elif UsersFloor == '2':
+    elif UsersFloor == 'B':
         print('Taking you to the basement.')
-    elif UsersFloor == '3':
+    elif UsersFloor == 'R':
         print('taking you to the roogtop. Be careful.')
-    elif UsersFloor == '4':
+    elif UsersFloor == '1':
         print('Taking you to the gym.')
-    elif UsersFloor == '5':
+    elif UsersFloor == '2':
         print('Taking you to the resturaunt.')
-    elif UsersFloor == '6':
+    elif UsersFloor == '3':
         print('Taking you to the workspace.')
-    elif UsersFloor == '7':
+    elif UsersFloor == '4':
         print ('taking you to the living quarters.')
-    elif UsersFloor == 'MySpace':
-        print('Taking you to your Room.')
     else:
         print('This floor is unavailabe, or does not exist. PLease try again.')
 
 ElevatorSystem()
-    
 
 # You have been hired by a architeture firm to assist 
 # with developing their elevator system. They have asked 
@@ -75,14 +81,20 @@ ElevatorSystem()
 # if the user enters information incorrectly, give them an error message
 # and tell them that they entered their information incorrectly. 
 
+#keywords
+#check for height.
+#.comparison operatorsless, greateter than- check for age and height.
+#we need to write a function.
+#we need parameters - height and age.
+
 def RollerCoaster(Height, age):
     if Height <= 5.1 and age <= 14:
-        print('you are able to ride, ride number 3.')
+        print('you are able to ride roller coaster number 3.')
     elif Height <= 5.2 and age >= 14:
-        print('you can ride the roller coaster, number 2')
+        print('you are able to ride roller coaster number 2')
     elif Height >= 5.2 and age >= 14:
-        print(' you can ride rollercoaster number 2')
+        print('you are able to ride roller coaster number 1')
     else:
-        print('please enter a valid height. ')
+        print('If your info does not make you eligible to ride any of the roller coaters there could be an error please ask a local employee for assistance. ')
  
-RollerCoaster(5.5, 15)
+RollerCoaster(5.5, 14)
