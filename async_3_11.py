@@ -40,6 +40,8 @@ numbCol = ['blue' , 'red' , 'orange' , '12' , '13' , '14']
 def scholarShip(UserScholarship):
     if UserScholarship == 'Yes':
         print('You are unable to get a Scholarship.')
-    if UserScholarship == 'No':
+    elif UserScholarship == 'No':
         print('Congrats! Youve gotten the scholarship.')
 scholarShip('No')
+
+# Amari.A.Smith
