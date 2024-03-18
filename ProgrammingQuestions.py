@@ -14,4 +14,5 @@
 # on expenses fpr calculators. Thus being because, google has a provided calculator free to use. Technology can fut=rther help people by making it easier for people to
 # learn about coding, making it easier to get a job.
 
-# Amari Smith.
+# Amari Smith .
+

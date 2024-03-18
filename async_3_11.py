@@ -15,14 +15,18 @@
 # into an integer data type? Please write your response
 # in a complete sentence. 
 
-# Answer.1- The Python datacasting function i would use to convert a string(str), into and intger(int)
+# Answer 1. The Python datacasting function i would use to convert a string(str), into and intger(int)
 #           would be int()
 # Example:
-#           int(input('This is how i would use it'))
+# int(input('This is how I would convert the data type.'))
+# key words-
+# function
+# converting a string into an integer
+# datacasting -  converts data types into other data types
 
 # 2. Create a list called numbCol that contains three (3 ) colors and three (3) numbers.
 
-# Answer.2-
+# Answer 2.
 numbCol = ['blue' , 'red' , 'orange' , '12' , '13' , '14']
 
 # 3. You have been hired by a University to create
@@ -37,11 +41,23 @@ numbCol = ['blue' , 'red' , 'orange' , '12' , '13' , '14']
 # the client has given you the choice on how to enter data for your function.
 # you may enter data using input or pass in data into your function as parameters. 
 
-def scholarShip(UserScholarship):
-    if UserScholarship == 'Yes':
-        print('You are unable to get a Scholarship.')
-    elif UserScholarship == 'No':
-        print('Congrats! Youve gotten the scholarship.')
-scholarShip('No')
+def scholarShip():
+    GottenLoan = input('Have you ever gotten a loan before ?')
+    BeenToCollege = input('Have you ever been to any other college ?')
+    if GottenLoan == 'Yes':
+        print('You have been denied a ScholarShip.')
+    elif BeenToCollege == 'yes':
+        print('You have been denied to a scholarship.')
+    elif GottenLoan == 'No':
+        print('Congratulations! You have gotten the scholarship.')
+    elif BeenToCollege == 'No':
+        print('You have been denied a Scholarship.')
+    elif GottenLoan == 'No' and BeenToCollege == 'Yes':
+        print('Congratulations! You have gotten the scholarship')
+    elif GottenLoan == 'Yes' and BeenToCollege == 'No':
+        print('Congratulations! You have gotten the scholarship')
+    else:
+        print('There have been an error. Please try again soon.')
+scholarShip()
 
-# Amari.A.Smith
+# Amari.A.Smith 
