@@ -68,16 +68,16 @@
 # pass in the speed as an argument - this told me that i didnt need to use input
 
 def Speeddetection(UserSpeed):
-    if UserSpeed >= '21':
+    if UserSpeed >= 20 and UserSpeed < 30:
         print('Shift to gear one please')
-    elif UserSpeed >= '31':
+    elif UserSpeed >= 31 and UserSpeed < 40:
         print('Shift to gear two please')
-    elif UserSpeed >= '41':
+    elif UserSpeed >= 41 and UserSpeed < 70:
         print('Shift to gear three please')
-    elif UserSpeed >= '71':
+    elif UserSpeed >= 71:
         print('Shift back to gear one please')
 
-Speeddetection('96')
+Speeddetection(96)
 
 # 8. You have been hired as an engineer to develop a fitness meal plan program. 
 # your function should take in two (2) arguements; the day of the week, and the time of the day.
@@ -186,4 +186,13 @@ def OutsideTemperature():
 OutsideTemperature()
 
 
-# Amari Smith
+# Amari Smith 
+
+i = 5 # variable being assigned the value a zero
+# i = iterator. Our loop starting point.
+
+while i < 50: # so long as 0 is less than 5...
+    print(i) # print the variable
+    i += 5 # adding 1 to our variable
+
+# while = so long as a condition is true, do this...
