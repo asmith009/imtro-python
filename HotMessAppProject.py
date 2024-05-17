@@ -1,3 +1,10 @@
+# The program idea is to making a shopping  app. This apps sells clothes and shoes at a affordable price.Our program will allow more users to enter our app by giving discounts based 
+# on times, and dates. Such as Christmas. There will be a discount for christmas time for all users.
+# your program trying to solve: Many consumers  want to own luxury items but may be discouraged  by high prices. 
+# A shopping app offering discounted luxury goods makes these products more accessible to a wider audience, including students or young professionals on a budget.
+# Who is your program designed for: this is designed for teenager and people who dont have money. The porgram is designed  for people who want to get high fashion clothes on a budget.
+
+
 def HotMess():
     UserInput = input('Login or Signup: ')
     HomePage = ['HamburgerIcon', 'Pants', 'Shorts', 'Shirts', 'Sweaters', 'Coats', 'Jackets'  ]
